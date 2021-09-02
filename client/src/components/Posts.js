@@ -14,7 +14,7 @@ useEffect(() => {
 
     return (
         <div>
-           {JSON.stringify(post)}
+           {JSON.stringify(post[0])}
         </div>
     )
 }
